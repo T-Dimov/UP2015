@@ -52,7 +52,7 @@
 ```
 
 
-###Задача 4 - Bubble and Seletion Sort
+###Задача 4 - Bubble and Selection Sort
 
 Сортиране на масив. 
 
