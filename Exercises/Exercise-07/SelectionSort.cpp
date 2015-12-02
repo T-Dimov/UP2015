@@ -5,8 +5,8 @@ int main()
     int arr[100], n, i , j;
     cin>>n;
     for(i = 0 ; i < n ; i++)
-        cin>>arr[i]; //input
-
+        cin>>arr[i]; 
+        
     for(i = 0; i < n - 1; ++i)
     {
         int index = i;
@@ -18,8 +18,9 @@ int main()
             swap (arr[i], arr[index]);
 
     }//selection sort
+    
     for( i = 0 ; i < n ; i++)
-        cout<<arr[i]<<" "; //outpur
+        cout<<arr[i]<<" "; 
     cout<<endl;
     return 0;
 }
